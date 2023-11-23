@@ -1,11 +1,11 @@
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 
-import Footer from "../components/Footer";
-import ScoreBoard from "../components/scoreBoard";
-import Modal from "../components/modal";
-import Cube from "../components/cube";
-import Pawn from "../components/Pawn";
+import Footer from "../components/Footer.jsx";
+import ScoreBoard from "../components/ScoreBoard.jsx";
+import Modal from "../components/Modal.jsx";
+import Cube from "../components/Cube.jsx";
+import Pawn from "../components/Pawn.jsx";
 
 function App() {
   const { arrCube, arrWhitePawn, arrBlackPawn } = useSelector(
